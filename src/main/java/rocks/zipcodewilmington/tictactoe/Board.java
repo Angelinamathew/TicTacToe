@@ -36,7 +36,7 @@ public class Board {
         }
         return result;
     }
-    public boolean checkDiffDiagonal(Character ch){
+    public boolean checkOtherDiagonal(Character ch){
         Boolean result = false;
         for (int i=0; i<matrix.length; i++){
             if (this.matrix[0][0]==ch && this.matrix[1][1]==ch && this.matrix[2][2]==ch){
