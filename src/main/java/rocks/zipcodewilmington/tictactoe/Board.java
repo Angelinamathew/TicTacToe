@@ -47,11 +47,11 @@ public class Board {
     }
 
     public Boolean isInFavorOfX() {
-        return checkRow('X') || checkColumn('X') || checkDiagonal('X') || checkDiffDiagonal('X');
+        return checkRow('X') || checkColumn('X') || checkDiagonal('X') || checkOtherDiagonal('X');
     }
 
     public Boolean isInFavorOfO() {
-        return checkRow('O') || checkColumn('O') || checkDiagonal('O') || checkDiffDiagonal('O');
+        return checkRow('O') || checkColumn('O') || checkDiagonal('O') || checkOtherDiagonal('O');
     }
 
     public Boolean isTie() {
